@@ -6,11 +6,17 @@ Custom eslint rule to capture non-encoding JavaScript variable inclusion in HTML
 1. Download the repo,  and extract the zip
 
 2. Open the terminal at the extracted folder and execute the following commands.
+
 ```npm init```
+
 ```npm install```
-```npm add --dev file:./custom-rule-missing-encoding``` (Execute it only for the first time)
+
+```npm add --dev file:./custom-rule-missing-encoding``` 
+(Execute it only for the first time)
+
 
 ```npx eslint <Absolute-Project-Path>/webapps  --ext .js```
+
 
 This will give you a report of Encoding missing places in all of the JS files.
 
