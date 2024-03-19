@@ -1,0 +1,14 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.13.0"
+  },
+  "dependencies": {
+    "eslint-plugin-missing-encoding": "file:custom-rule-missing-encoding"
+  }
+}
